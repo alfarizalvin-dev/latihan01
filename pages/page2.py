@@ -1,12 +1,12 @@
-imprt streamlit as st
-import plotly.espress as px
+import streamlit as st
+import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
 
 st.title("Data Visualization")
 
 #Generate some data
-x = np.license(0, 10, 100)
+x = np.linspace(0, 10, 100)
 y = np.sin(x)
 # Plot Data
 fig, ax = plt.subplots()
